@@ -1,0 +1,165 @@
+{
+  "home": {
+    "upload_container": "أنفق 50 درهمًا فقط وقم بتحميل فواتيرك للحصول على فرصة للفوز",
+    "see_raffles": "انظر رافلز",
+    "destinations_title": "ابحث عن تجربتك",
+    "see_more": "اظهار الكل",
+    "vouchers": "العروض القريبة"
+  },
+  "header": {
+    "my_account": "حسابي",
+    "signin": "تسجيل الدخول"
+  },
+  "signin": {
+    "heading": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمه السر",
+    "signin_button": "تسجيل الدخول",
+    "signup_text": "ليس لديك حساب من",
+    "signup_button": "سجل"
+  },
+  "signup": {
+    "heading": "سجل",
+    "email": "البريد الإلكتروني",
+    "phone": "Phone",
+    "password": "كلمه السر",
+    "signup_button": "تسجيل",
+    "signuin_text": "لديك بالفعل حساب من",
+    "signin_button": "تسجيل الدخول",
+    "forgotpassword_text": "هل نسيت كلمة المرور ؟"
+  },
+  "vouchers": {
+    "heading": "عروض قد تعجبك",
+    "select": "تحديد وجهة",
+    "not_available": "لا قسائم متاحة",
+    "permission_error": "تحتاج هذه الصفحة إلى إذن موقع لإظهار القسائم المجاورة.",
+    "valid_till": "صالح لغاية",
+    "discount": "عرض"
+  },
+  "bottom_navigation": {
+    "home": "الصفحة الرئيسية",
+    "invoices": "الفواتير",
+    "deals": "صفقات",
+    "vouchers": "القسائم"
+  },
+  "invoices": {
+    "login_button": "تسجيل الدخول لرؤية الفواتير",
+    "invoice": "فاتورة",
+    "pending": "قيد الانتظار",
+    "approved": "وافق",
+    "rejected": "مرفوض",
+    "view_all": "اعرض رافلز لهذه الفاتورة",
+    "resubmit": "إعادة الإرسال",
+    "warning_message": "يبدو أنك لم تقم بتحميل أي فواتير.",
+    "upload_invoices": "قم بتحميل الفواتير لكسب المزيد من تذاكر السحب",
+    "total_spent": "إجمال الصرف",
+    "today_raffles":"رافلز اليوم",
+    "overall_raffles": "رافلز بشكل عام"
+  },
+  "raffles": {
+    "heading": "رافلز",
+    "moderation_pending": "يتم الإشراف على فواتيرك ، يرجى التحقق مرة أخرى",
+    "raffle_ticket": "تذكرة اليانصيب",
+    "all_raffles": "كل رافلز",
+    "warning_message": "لا رافلز في حسابك. يرجى تحميل الفواتير"
+  },
+  "destination": {
+    "packages_heading": "احجز تجربتك",
+    "vouchers_heading": "عروض قد تعجبك",
+    "destinations_title": "ابحث عن تجربتك",
+    "comeing_soon": "قريبا"
+  },
+  "packages": {
+    "counter": "في العداد",
+    "price": "السعر عبر الإنترنت:",
+    "price_gate": "السعر عند البوابة:"
+  },
+  "package_details": {
+    "description": "وصف",
+    "adult": "الكبار",
+    "child": "طفل",
+    "book_now": "احجز الآن",
+    "login_book_now": "تسجيل الدخول لحجز التذاكر"
+  },
+  "settings": {
+    "account_settings": "إعدادت الحساب",
+    "account_settings_description": "قم بتغيير PIN أو Recover",
+    "order_history": "تاريخ الطلب",
+    "order_history_description": "قائمة المدفوعات الرقمية المكتملة",
+    "notifications": "إشعارات",
+    "notifications_description": "الإخطارات المتعلقة بالحساب / الطلب",
+    "change_password": "غير كلمة السر",
+    "change_password_description": "قم بتغيير كلمة مرور حسابك",
+    "help": "مساعدة",
+    "help_description": "احصل على الدعم أو أبلغ عن أي مشكلة",
+    "logout": "تسجيل خروج",
+    "logout_description": "تسجيل الخروج من حسابك"
+  },
+  "account_settings": {
+    "heading": "الملف الشخصي",
+    "name": "اسم",
+    "email": "البريد الإلكتروني",
+    "phone": "هاتف",
+    "button": "تحديث الملف"
+  },
+  "order_history": {
+    "empty_message": "لا يوجد تاريخ للطلب متاح",
+    "child": "أطفال",
+    "adult": "الكبار",
+    "booking": "الحجز",
+    "price": "السعر",
+    "processing": "معالجة",
+    "show_qr": "إظهار QR",
+    "failed": "فشل"
+  },
+  "Vourcer_details": {
+    "login_button": "تسجيل الدخول للحصول على رمز الاستجابة السريعة",
+    "share_qr": "شارك رمز الاستجابة السريعة الخاص بك مع البائع لاسترداد المكافآت.",
+    "tc_heading": "البنود و الظروف:",
+    "tc_description": "حيث لم يبدأ المنطق وراء الفرز يعيش مع النظام الغذائي ، في مرحلته المحايدة. الوقت المقدر هو حقا لي. من الإرادة الصغيرة كيف لهجتهم ، حتى من الدراسة ، من الرائحة في الاقتصاد.",
+    "voucher": "فاتورة",
+    "expires": "تنتهي",
+    "surprise_bidding": "مفاجأة تقديم العطاءات إلى أنها رقيقة في مرحلة قضيتها حيث أن كل منطقة بعيدة لديها محيط."
+  },
+  "Booking_details": {
+    "adults": "الكبار",
+    "kids": "أطفال",
+    "passenger": "راكب",
+    "booking_date": "تاريخ الحجز",
+    "order_number": "رقم الأمر",
+    "total": "مجموع",
+    "booked_by": "التذكرة محجوزة لـ",
+    "contact_us":"لتأكيد الحجز الخاص بك ، يرجى الاتصال بنا على الواتس اب"
+  },
+  "Upload":{
+    "select_image": "حدد الصور لتحميل فواتيرك",
+    "browse": "تصفح",
+    "login_upload": "تسجيل الدخول للتحميل",
+    "done": "منجز"
+  },
+  "Change_password": {
+    "current_password": "كلمة المرور الحالية",
+    "new_password":"كلمة سر جديدة",
+    "change_password":"غير كلمة السر",
+    "password": "كلمه السر",
+    "confirm_password":"تأكيد كلمة المرور"
+  },
+  "Message": {
+    "register_success": "تم تسجيل المستخدم بنجاح",
+    "valid_warning": "الرجاء إدخال جميع المعلومات الصحيحة",
+    "exist_email": "البريد الالكتروني موجود مسبقا",
+    "email_warning": "الرجاء إدخال البريد الإلكتروني",
+    "name_warning": "الرجاء إدخال البريد الإلكتروني",
+    "email_valid_warning":"الرجاء إدخال بريد إلكتروني صحيح",
+    "phone_warning": "الرجاء إدخال الهاتف",
+    "phone_valid_warning":"الرجاء إدخال رقم هاتف صحيح",
+    "password_warning": "الرجاء إدخال كلمة المرور",
+    "password_valid_warning":"الرجاء إدخال كلمة مرور صالحة",
+    "login_success": "تم تسجيل الدخول بنجاح",
+    "login_warning": "اعتماد تسجيل الدخول غير صالح",
+    "login_require": "تسجيل الدخول مطلوب"
+  },
+  "Notifications": {
+    "notifications": "إشعارات"
+  }
+}

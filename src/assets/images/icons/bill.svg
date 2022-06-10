@@ -1,0 +1,8 @@
+<svg id="bill" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_1" data-name="Path 1" d="M32.863,309.891v-4.259H3.918v4.259a6.386,6.386,0,0,0,6.171,6.592H38.652A6.42,6.42,0,0,1,32.863,309.891Z" transform="translate(-3.918 -276.483)" fill="#ece17f"/>
+  <path id="Path_2" data-name="Path 2" d="M99.8,4.825,94.415,0,89.031,4.825,83.648,0,78.265,4.825,72.882.052v30.3h20.6v3.787A5.853,5.853,0,0,0,98.97,40h.362a5.907,5.907,0,0,0,4.141-1.712,5.808,5.808,0,0,0,1.708-4.15V.052Z" transform="translate(-65.181)" fill="#fff06f"/>
+  <g id="Group_6" data-name="Group 6" transform="translate(11.599 12.802)">
+    <path id="Path_3" data-name="Path 3" d="M137.326,138.293h10.793a1.75,1.75,0,1,0,0-3.5H137.326a1.75,1.75,0,1,0,0,3.5Z" transform="translate(-135.576 -134.793)" fill="#343845"/>
+    <path id="Path_4" data-name="Path 4" d="M156.287,207.935h-18.96a1.75,1.75,0,0,0,0,3.5h18.96a1.75,1.75,0,0,0,0-3.5Z" transform="translate(-135.576 -199.768)" fill="#343845"/>
+  </g>
+</svg>

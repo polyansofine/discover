@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+
+@media only screen and (max-width: 768px) {
+  .cake-card-body {
+    width : 100% !important;
+    margin: auto !important;
+  }
+}
+
+.cake-card-wrapper {
+  // width: 100vw;
+
+  padding: 10px;
+  margin     : auto;
+  line-height: 0.8;
+
+  .cake-card-body {
+    display : flex;
+    width   : 500px;
+    position: relative;
+
+    margin       : auto;
+    background   : #fff;
+    border-radius: 12px;
+    height       : 120px;
+    transition   : all 0.3s;
+
+box-shadow: 0 7px 30px -10px rgba(150,170,180,.5);
+  }
+  .ticket {
+    background: #FBFBFB;
+
+  padding: 0px !important;
+  
+      overflow: unset !important;
+  
+  }
+  .ticket:before, .ticket:after {
+    content: '';
+    position: absolute;
+  
+    height: 5px;
+    width: 98%;
+  }
+  .ticket:before {
+    top: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, #FBFBFB 50%, #FBFBFB 100%) -7px -8px/16px 16px repeat-x;
+  }
+  .ticket:after {
+    bottom: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, #FBFBFB 50%, #FBFBFB 100%) -7px -2px/16px 16px repeat-x;
+  }
+   
+  .cake-card-content {
+    width        : 100%;
+    margin       : 10px;
+    text-align   : center;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    display      : block !important;
+    white-space  : nowrap;
+
+    font-size: 30px;
+
+    .cake-card-heading-text {
+      font-size: 16px;
+
+      font-family: "Rubik", sans-serif;
+    }
+
+    .cake-card-muted-text {
+      font-size: 16px;
+    }
+  }
+
+  .cake-card-left-img img {
+    border-radius: 12px 0px 0px 12px;
+    height       : 120px;
+    width        : 120px;
+  }
+
+  .cake-card-right {
+    font-family : Rubik;
+    color       : white;
+    padding     : 1em;
+    width       : 34px;
+    writing-mode: vertical-rl;
+    text-align  : center;
+    margin      : 0;
+    line-height : 0;
+  }
+}
+
+.Processing {
+    background-color: #b8b8b8;
+    border-radius: 0 12px 12px 0;
+}
+
+.processing {
+   
+  border-radius   : 0px 12px 12px 0px;
+}
+
+.qr {
+  background-color: #138800;
+  border-radius   : 0px 12px 12px 0px;
+}
+
+.Failed {
+  background-color: #ff7878;
+  border-radius   : 0px 12px 12px 0px;
+}

@@ -1,0 +1,58 @@
+.validTime{
+margin-top: 15px;
+margin-bottom: 10px;
+bottom: 0;
+left: 50%;}
+
+.offers {
+    overflow: unset !important;
+    justify-items: center;
+    text-justify: auto;
+    text-align: center;
+    align-items: center;
+    background: white;
+}
+// .offers:before {
+//     content: '';
+//     position: absolute;
+//     height: 85%;
+//     width: 10px;
+//     margin-left: calc(35% - 22px);
+//     z-index: 1000;
+// }
+// .offers:before {
+//     background: radial-gradient(circle, transparent, transparent 50%, #fff 50%, #fff 50%) -10px -10px/16px 20px repeat-y;
+// }
+.ImageBox{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+}
+.name{
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.offerContent{
+    border: 5px solid #fff;
+   // box-shadow: 5px 2px 12px rgba(34, 35, 58, 0.2);
+    
+   //   box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    
+    
+    
+    border-radius: 12px;
+    background: white;
+    
+}
+.voucherTitle{
+    border:0px solid #ececec;
+    margin-left: 2px;
+}

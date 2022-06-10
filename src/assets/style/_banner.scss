@@ -1,0 +1,361 @@
+.h-banner {
+   color: #fff;
+   position: relative;
+   background: {
+      size: cover;
+      position: center;
+   }
+   @media (max-width: $tablet) {
+      padding-top: 80px;
+   }
+   &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(72.59% 72.59% at 48.33% 39.54%, rgba(0, 0, 0, 0.21) 0%, rgba(0, 11, 27, 0.76) 87.01%);
+      z-index: 1;
+   }
+   .container {
+      position: relative;
+      z-index: 2;
+      // height: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-bottom: 80px;
+      @media (max-width: $xxxlDesktop) {
+         padding-bottom: 60px;
+      }
+      @media (max-width: $xxlDesktop) {
+         max-width: calc(100% - 30px);
+         padding-bottom: 45px;
+      }
+
+      @media (max-width: $xxlDesktop) {
+         font-size: 14px;
+      }
+      @media (max-width: $phone) {
+         max-width: 100%;
+      }
+      .scrollText {
+         position: absolute;
+         top: 50%;
+         right: 0;
+         letter-spacing: 0.5em;
+         font-size: 13px;
+         line-height: 100%;
+         color: #ffffff;
+         opacity: 0.7;
+         transform: translateY(-50%) rotate(90deg);
+         @media (max-width: $desktop) {
+            display: none;
+         }
+         img {
+            margin-left: 17px;
+            transform: rotate(-90deg);
+         }
+      }
+   }
+   h1 {
+      font-size: 58px;
+      line-height: 1.152778;
+      font-weight: bold;
+      max-width: 18em;
+      margin-bottom: 24px;
+      @media (max-width: $xxxlDesktop) {
+         font-size: 45px;
+         margin-bottom: 18px;
+         padding-top: 20px;
+      }
+      @media (max-width: $xxlDesktop) {
+         font-size: 40px;
+         padding-top: 0px;
+         margin-bottom: 12px;
+      }
+      @media (max-width: $tablet) {
+         font-size: 32px;
+      }
+      @media (max-width: $phone) {
+         font-size: 26px;
+      }
+   }
+   .main-dec {
+      font-size: 17px;
+      line-height: 1.47059;
+      opacity: 0.7;
+      max-width: 34em;
+      margin-bottom: 60px;
+      @media (max-width: $xxxlDesktop) {
+         margin-bottom: 45px;
+      }
+      @media (max-width: $xxlDesktop) {
+         margin-bottom: 33px;
+         font-size: 16px;
+      }
+      @media (max-width: $tablet) {
+         font-size: 14px;
+      }
+   }
+   .b-bottom-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 -8px;
+      @media (max-width: $tablet) {
+         flex-wrap: wrap;
+      }
+      .content {
+         padding: 0 8px;
+         text-align: center;
+         @media (max-width: $tablet) {
+            flex: 0 0 25%;
+            max-width: 25%;
+            margin-top: 16px;
+         }
+         .item {
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+            padding: 12px;
+            @media (max-width: $desktop) {
+               padding: 12px 8px;
+            }
+            &:hover {
+               background: rgba(#bbbbbb, 0.17);
+            }
+         }
+      }
+      .icon {
+         // height: 54px;
+         margin-bottom: 30px;
+         height: 45px;
+         @media (max-width: $xxxlDesktop) {
+            height: 40px;
+            margin-bottom: 22px;
+         }
+
+         @media (max-width: $xxlDesktop) {
+            height: 30px;
+            margin-bottom: 16px;
+         }
+         @media (max-width: $tablet) {
+            height: 26px;
+            margin-bottom: 14px;
+         }
+      }
+      .b-title {
+         font-size: 16px;
+         line-height: 100%;
+         color: #ffffff;
+         opacity: 0.7;
+         margin-bottom: 0;
+         max-width: 130px;
+         @media (max-width: $xxxlDesktop) {
+            font-size: 16px;
+         }
+         @media (max-width: $xxlDesktop) {
+            font-size: 14px;
+         }
+         @media (max-width: $tablet) {
+            font-size: 12px;
+         }
+      }
+   }
+}
+
+.head-banner {
+   color: #fff;
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   position: relative;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   padding-bottom: 5px;
+   @media (max-width: $xxxlDesktop) {
+      height: 300px;
+   }
+   @media (max-width: $tablet) {
+      height: 250px;
+      padding-top: 80px;
+   }
+
+   &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      // background: rgba(0, 0, 0, 0.65);
+      z-index: 1;
+   }
+   .content {
+      position: relative;
+      z-index: 2;
+   }
+}
+
+.voucher-banner,
+.upload-banner {
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+   position: relative;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   padding-bottom: 90px;
+   position: relative;
+   z-index: 1;
+   @media (max-width: $xxxlDesktop) {
+      height: 400px;
+   }
+   @media (max-width: $tablet) {
+      height: 250px;
+      padding-top: 80px;
+   }
+
+   &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.65);
+      z-index: 1;
+   }
+   .content {
+      position: relative;
+      z-index: 2;
+   }
+}
+.register-banner {
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   padding-bottom: 54px;
+   position: relative;
+   z-index: 1;
+   @media (max-width: $tablet) {
+      padding-top: 80px;
+   }
+   &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+   }
+   .content {
+      position: relative;
+      z-index: 2;
+   }
+}
+.package-banner {
+   position: relative;
+   z-index: 1;
+   // display: flex;
+   // align-items: flex-end;
+   // justify-content: center;
+   // padding-bottom: 54px;
+   overflow: hidden;
+   .content {
+      position: relative;
+      z-index: 2;
+
+      .slider-wrapper {
+         overflow: hidden;
+         width: 100vw;
+         .owl-dots {
+            position: absolute;
+            bottom: 94px;
+            right: 10%;
+
+            text-align: right;
+            @media (max-width: $phone) {
+               bottom: 60px;
+            }
+         }
+      }
+      .render-iamge {
+         background-size: cover;
+         background-position: center;
+         width: 100vw;
+         height: 600px;
+         @media (max-width: $lDesktop) {
+            height: 500px;
+         }
+         @media (max-width: $tablet) {
+            height: 400px;
+         }
+         &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+         }
+      }
+   }
+   .b-content {
+      position: absolute;
+      bottom: 94px;
+      left: 0;
+      width: 100%;
+      z-index: 3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding-left: 10%;
+      @media (max-width: $tablet) {
+         bottom: 140px;
+         left: -20px;
+      }
+      .name-text {
+         margin: 0;
+         font-weight: bold;
+         font-size: 15px;
+         line-height: 100%;
+         color: #ffffff;
+         padding: 13px 20px 14px;
+         background: rgba(0, 0, 0, 0.25);
+         border-radius: 55px;
+      }
+   }
+   .link-page {
+      position: absolute;
+      bottom: 104px;
+      left: 50%;
+      z-index: 99;
+      transform: translateX(-50%);
+      @media (max-width: $tablet) {
+         left: 20px;
+         transform: none;
+      }
+      .item {
+         @media (max-width: 420px) {
+            font-size: 12px;
+         }
+      }
+   }
+}
+
+.book-exp-card .content {
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);*/
+}

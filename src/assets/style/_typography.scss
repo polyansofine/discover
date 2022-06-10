@@ -1,0 +1,32 @@
+.sec-title-heading {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.17647;
+  text-transform: uppercase;
+  color: #5f6062;
+  margin-bottom: 10px;
+  @media (max-width: $xxxlDesktop) {
+    font-size: 15px;
+  }
+  @media (max-width: $xxlDesktop) {
+    font-size: 14px;
+  }
+}
+.sec-title {
+  font-size: 45px;
+  line-height: 1.142857;
+  font-weight: 700;
+  @media (max-width: $xxxlDesktop) {
+    font-size: 45.5px;
+
+  }
+  @media (max-width: $xxlDesktop) {
+    font-size: 40px;
+  }
+  @media (max-width: $desktop) {
+    font-size: 32px;
+  }
+  @media (max-width: $tablet) {
+    font-size: 22px;
+  }
+}

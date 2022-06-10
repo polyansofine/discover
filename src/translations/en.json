@@ -1,0 +1,165 @@
+{
+  "home": {
+    "upload_container": "Spend AED 50 and upload your invoices for a chance to win",
+    "see_raffles": "See Raffles",
+    "destinations_title": "Find your experience",
+    "see_more": "See All",
+    "vouchers": "Offers Nearby"
+  },
+  "header": {
+    "my_account": "My Account",
+    "signin": "Sign in"
+  },
+  "signin": {
+    "heading": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "signin_button": "Login",
+    "signup_text": "Not have an account than",
+    "signup_button": "Sign Up"
+  },
+  "signup": {
+    "heading": "Sign Up",
+    "email": "Email",
+    "phone": "Phone",
+    "password": "Password",
+    "signup_button": "Register",
+    "signuin_text": "Already have a account than",
+    "signin_button": "Sign in",
+    "forgotpassword_text": "Forgot Password ?"
+  },
+  "vouchers": {
+    "heading": "Offers you may like",
+    "select": "Select a Destination",
+    "not_available": "No Vouchers Available",
+    "permission_error": "This page needs Location Permission to show Nearby Vouchers.",
+    "valid_till": "Valid till",
+    "discount": "Offer"
+  },
+  "bottom_navigation": {
+    "home": "Home",
+    "invoices": "Invoices",
+    "deals": "Deals",
+    "vouchers": "Vouchers"
+  },
+  "invoices": {
+    "login_button": "Login to see invoices",
+    "invoice": "Invoice",
+    "pending": "pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "view_all": "View Raffles for this Invoice",
+    "resubmit": "Resubmit",
+    "warning_message": "Looks like you haven't uploaded any Invoices.",
+    "upload_invoices": "Upload Invoices to earn more Raffle Tickets",
+    "total_spent": "Total Spent",
+    "today_raffles":"Today Raffles",
+    "overall_raffles": "Overall Raffles"
+  },
+  "raffles": {
+    "heading": "Raffles",
+    "moderation_pending": "Your invoices are being moderated, Kindly please check back again",
+    "raffle_ticket": "Raffle Ticket",
+    "all_raffles": "All Raffles",
+    "warning_message": "No Raffles in your account. Please upload Invoices"
+  },
+  "destination": {
+    "packages_heading": "Book Your Experience",
+    "vouchers_heading": "Offers you may like",
+    "destinations_title": "Find your experience",
+    "comeing_soon": "Coming Soon"
+  },
+  "packages": {
+    "counter": "At Counter",
+    "price": "Online Price:",
+    "price_gate": "Price at Gate:"
+  },
+  "package_details": {
+    "description": "Description",
+    "adult": "Adult",
+    "child": "Child",
+    "book_now": "Book Now",
+    "login_book_now": "Login to Book Ticket"
+  },
+  "settings": {
+    "account_settings": "Account Settings",
+    "account_settings_description": "Change secret PIN or Recover",
+    "order_history": "Order History",
+    "order_history_description": "List of completed digital payments",
+    "notifications": "Notifications",
+    "notifications_description": "Account / Order Related Notifications",
+    "change_password": "Change Password",
+    "change_password_description": "Change your account password",
+    "help": "Help",
+    "help_description": "Get support or report any issue",
+    "logout": "Logout",
+    "logout_description": "Logout of your Account"
+  },
+  "account_settings": {
+    "heading": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "button": "Update Profile"
+  },
+  "order_history": {
+    "empty_message": "No Order History Available",
+    "child": "Kids",
+    "adult": "Adults",
+    "booking": "Booking",
+    "price": "Price",
+    "processing": "Processing",
+    "show_qr": "Show QR",
+    "failed": "Failed"
+  },
+  "Vourcer_details": {
+    "login_button": "Login to get QR Code",
+    "share_qr": "Share your QR code with the seller to redeem the rewards.",
+    "tc_heading": "Terms & Conditions:",
+    "tc_description": "Where rationale not began behind sort live a the with diet, in its phase neuter. Destined time really he me. Of small will how their tone, so from be study, of scent in economics.",
+    "voucher": "Voucher",
+    "expires": "Expires",
+    "surprise_bidding": "Surprise bidding to it thin her case phase as each remote the have ocean."
+  },
+  "Booking_details": {
+    "adults": "Adults",
+    "kids": "Kids",
+    "passenger": "Passenger",
+    "booking_date": "Booking Date",
+    "order_number": "Order Number",
+    "total": "Total",
+    "booked_by": "Ticket Reserved for",
+    "contact_us":"To confirm your Reservation, please contact us on whatsapp"
+  },
+  "Upload":{
+    "select_image": "Select Images to Upload Your Invoices",
+    "browse": "Browse",
+    "login_upload": "Login to Upload",
+    "done": "Done"
+  },
+  "Change_password": {
+    "current_password": "Current Password",
+    "new_password":"New Password",
+    "change_password":"Change Password",
+    "password": "Password",
+    "confirm_password":"Confirm Password"
+  },
+  "Message": {
+    "register_success": "User Registered Successfully",
+    "valid_warning": "Please enter all the valid information",
+    "exist_email": "Email already exist",
+    "email_warning": "Please Enter Email",
+    "name_warning": "Please Enter UserName",
+    "email_valid_warning":"Please Enter Valid Email",
+    "phone_warning": "Please Enter Phone",
+    "phone_valid_warning":"Please Enter Valid Phone",
+    "password_warning": "Please Enter Password",
+    "password_valid_warning":"Please Enter Valid Password",
+    "login_success": "Login Successfully",
+    "login_warning": "Invalid Login Credentials",
+    "login_require": "Login is required"
+  },
+  "Notifications": {
+    "notifications": "Notifications"
+  }
+}
